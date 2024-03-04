@@ -48,7 +48,7 @@ else:
     
 if selected_year == 'Semua' and selected_month == 0:
     month_display = "semua bulan pertahunnya"
-    st.write(f"#### Total Penjualan untuk {month_display} Tahun {selected_year}")
+    st.write(f"#### Total Penjualan untuk {month_display}")
 else:
     st.write(
         f"#### Total Penjualan untuk {month_display} Tahun {selected_year}")
