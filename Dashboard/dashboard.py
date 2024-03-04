@@ -47,7 +47,7 @@ else:
         str(selected_month), format='%m').strftime('%B')
 
 st.write(
-    f"#### Total Penjualan untuk {month_display} Tahun {selected_year})
+    f"#### Total Penjualan untuk {month_display} Tahun {selected_year}")
 col1, col2 = st.columns(2)
 col1.metric("Total Pesanan", total_orders_filtered)
 col2.metric("Total Penjualan", f"R$ {total_sales_filtered:.2f}")
