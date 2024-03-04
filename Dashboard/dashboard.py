@@ -45,9 +45,14 @@ if selected_month == 0:
 else:
     month_display = pd.to_datetime(
         str(selected_month), format='%m').strftime('%B')
+    
+if selected_year == 'Semua' and selected_month == 0:
+    month_display = "semua bulan pertahunnya"
+    st.write(f"#### Total Penjualan untuk {month_display} Tahun {selected_year}")
+else:
+    st.write(
+        f"#### Total Penjualan untuk {month_display} Tahun {selected_year}")
 
-st.write(
-    f"#### Total Penjualan untuk {month_display} Tahun {selected_year}")
 col1, col2 = st.columns(2)
 col1.metric("Total Pesanan", total_orders_filtered)
 col2.metric("Total Penjualan", f"R$ {total_sales_filtered:.2f}")
