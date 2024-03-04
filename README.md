@@ -1,7 +1,7 @@
 # Dicoding Data Analysis Project
 
 ![alt text](dashboard.png)
-Access dashboard in here [https://brazil-ecommerce-dashboard.streamlit.app/](https://brazil-ecommerce-dashboard.streamlit.app/).
+Access dashboard in here [https://brazil-ecommerce-dashboard.streamlit.app](https://brazil-ecommerce-dashboard.streamlit.app).
 
 ## Overview
 This is a data analysis project created to fulfill the task in the Data Science training program organized by Dicoding. The project aims to analyze e-commerce data in Brazil using various data analysis techniques and tools.
