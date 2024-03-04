@@ -47,7 +47,7 @@ else:
         str(selected_month), format='%m').strftime('%B')
     
 if selected_year == 'Semua' and selected_month == 0:
-    month_display = "semua bulan pertahunnya"
+    month_display = "Semua Bulan Pertahunnya"
     st.write(f"#### Total Penjualan untuk {month_display}")
 else:
     st.write(
