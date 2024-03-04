@@ -8,7 +8,7 @@ import streamlit as st
 
 st.header('Brazil E-Commerce Dashboard 📈')
 
-df = pd.read_csv('../all_data.csv')
+df = pd.read_csv('./all_data.csv')
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
 df['year'] = df['order_purchase_timestamp'].dt.year
 df['month'] = df['order_purchase_timestamp'].dt.month
